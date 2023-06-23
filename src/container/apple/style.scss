@@ -35,10 +35,6 @@ font-size: s.size('small');
 @include s.click;
 }
 
-// .header__link {
-// 	font-size: s.size('small');
-// }
-
 .header__title {
 	font-size: s.size('medium');
 	color: s.color('fontDark');
@@ -177,10 +173,11 @@ $productImage: (
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	padding: s.space(10) 0;
+	gap: s.space(5);
 }
 
 .footer__block {
-	display: grid;
+	padding-right: s.space(5);
 }
 
 .footer__title {
