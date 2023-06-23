@@ -35,10 +35,6 @@ font-size: s.size('small');
 @include s.click;
 }
 
-// .header__link {
-// 	font-size: s.size('small');
-// }
-
 .header__title {
 	font-size: s.size('medium');
 	color: s.color('fontDark');
