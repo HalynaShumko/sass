@@ -179,9 +179,9 @@ $productImage: (
 	padding: s.space(10) 0;
 }
 
-// .footer__block {
-	
-// }
+.footer__block {
+	display: grid;
+}
 
 .footer__title {
 	color: s.color('fontDark');

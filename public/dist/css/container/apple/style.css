@@ -250,6 +250,10 @@
   padding: 40px 0;
 }
 
+.footer__block {
+  display: grid;
+}
+
 .footer__title {
   color: #1D1d1F;
   font-weight: 600;
