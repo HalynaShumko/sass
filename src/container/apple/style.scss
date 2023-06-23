@@ -177,10 +177,11 @@ $productImage: (
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	padding: s.space(10) 0;
+	gap: s.space(5);
 }
 
 .footer__block {
-	display: grid;
+	padding-right: s.space(5);
 }
 
 .footer__title {
